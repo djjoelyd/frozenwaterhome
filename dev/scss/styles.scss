@@ -9,3 +9,42 @@
 
 /* Basic */
 
+html {
+	background:url('../images/bg.jpg') no-repeat center center fixed;
+	background-size:cover;
+}
+body {
+	color: #fff;
+}
+.overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url('../images/overlay.png'); 
+	background-color: rgba(95, 96, 96, 0.4);
+}
+.wrapper {
+	.centerdiv {
+		position: absolute;
+	    top:0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    z-index: 1;
+	    margin: auto;
+	    text-align: center;
+	    width:420px;
+	    height:500px;
+		h1 {
+			margin:0 auto 40px;
+			padding:0;
+			text-indent: -9999px;
+			width:320px;
+	    	height: 291px;
+	    	background:url('../images/logo.svg') no-repeat center;
+	    	background-size:cover;
+		}
+	}
+}
